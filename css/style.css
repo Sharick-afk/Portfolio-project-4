@@ -1241,7 +1241,9 @@ section {
   font-size: calc(12px + 4 *(100vw / 2050));
   font-family: "Roboto";
 }
-
+.product_item_info:hover {
+    display: block;
+  }
 
 .product_item.active {
   z-index: 100;
