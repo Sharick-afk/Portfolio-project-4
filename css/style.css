@@ -1,7 +1,9 @@
 /*
 font-family: 'Roboto', sans-serif;
 */
-
+picture{
+    width: 100%;
+}
 *,
 ::after,
 ::before {
