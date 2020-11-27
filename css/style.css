@@ -1,6 +1,7 @@
 /*
 font-family: 'Roboto', sans-serif;
 */
+
 *,
 ::after,
 ::before {
@@ -57,6 +58,7 @@ picture{
     height: 100%;
     object-fit: cover;
 }
+
 body {
   position: relative;
   -webkit-box-sizing: border-box;
@@ -72,6 +74,7 @@ main {
 
 footer {
   position: relative;
+
 }
 
 /*=======================RESET==========================*/
@@ -1147,6 +1150,7 @@ section {
 .slider_item {
   max-height: 100vh;
   position: relative;
+  background-color: #f8f8f8;
 }
 
 .slide_img {
@@ -1154,6 +1158,7 @@ section {
   max-height: 100vh;
   -o-object-fit: cover;
   object-fit: cover;
+  background: white;
 }
 
 .slide_title {
@@ -1245,9 +1250,7 @@ section {
   font-size: calc(12px + 4 *(100vw / 2050));
   font-family: "Roboto";
 }
-.product_item_info:hover {
-    display: block;
-  }
+
 
 .product_item.active {
   z-index: 100;
@@ -1267,6 +1270,9 @@ section {
   -webkit-box-shadow: 0px 17px 25px -11px #000000;
   box-shadow: 0px 17px 25px -11px #000000;
 }
+.product_item_info:hover {
+    display: block;
+  }
 
 .product_item_info.active {
   display: block;
@@ -1278,6 +1284,7 @@ section {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  background: transparent;
 }
 
 .info_svg {
@@ -1360,6 +1367,8 @@ section {
   display: inline-flex;
   max-width: 33.33%;
   margin: 10px;
+  background-color: #f8f8f8;
+
 }
 
 .look_book_text_cont {
@@ -1861,6 +1870,7 @@ p {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+
 }
 
 .footer_top {
@@ -1872,6 +1882,8 @@ p {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  background-color: #f8f8f8;
+
 }
 
 .footer_bot {
@@ -1882,6 +1894,8 @@ p {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  background-color: #f8f8f8;
+
 }
 
 .foot_ul {
@@ -2256,7 +2270,7 @@ p {
   line-height: 16px;
   white-space: nowrap;
   z-index: 3;
-  positon: relative;
+  position: relative;
 }
 
 .lazyframe[data-vendor="vine"] .lazyframe__title:after {
