@@ -1,24 +1,13 @@
-
 /* top_head_currency start */
 
-$(function () {
-  $('.choose_currency_btn').click(function (event) {
-      $('.submenu_list').toggleClass('active');
-  });
-});
+const searchForm = document.querySelector('.choose_currency_btn');
+searchForm.addEventListener('click', function () {
+  document.querySelector('.submenu_list').classList.toggle('active')
+})
 
 /* top_head_currency end */
-/* search start */
-$(function () {
-  $('.search_form_mobal_version').click(function (event) {
-    event.preventdefault();
-      $('.head_search').toggleClass('active');
-  });
-});
-
-
-/* search end */
 /* burger start */
+
 
 $(function(){
     $(".burger_box , .overlay").click((function(s){
@@ -62,7 +51,6 @@ catalogBoxes.forEach(function(item){
 $(function () {
   $('.slider').slick({
     arrows:false,
-    autoplay:true,
     speed: 1200,
     autoplaySpeed: 3000,
   });
