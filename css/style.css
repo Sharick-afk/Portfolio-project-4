@@ -1553,7 +1553,6 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: -100px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
