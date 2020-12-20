@@ -1489,7 +1489,7 @@ section {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 46%;
-  margin: 60px 10px 0px 10px;
+  margin: 10px 10px 0px 10px;
 }
 
 .brend_content3_block {
@@ -1926,7 +1926,7 @@ p {
   line-height: 2;
 }
 .brend_content3_block{
-  margin: 0px 10px 0 10px;
+  margin: 10px 10px 0 10px;
 }
 .award_box {
   display: -webkit-box;
